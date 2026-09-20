@@ -1,490 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Safe Haven Nursery Setup | In-Home Newborn Sleep Space Consultations</title>
-    <meta name="description" content="Expert in-home nursery safety audits and functional room styling for expectant parents. Sleep safe, live easy.">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Safe Haven Nursery Setup | In-Home Newborn Sleep Space Consultations</title>
+  <meta name="description" content="Expert in-home nursery safety audits and functional room styling for expectant parents in South East Melbourne. Sleep safe, live easy.">
 
-    <!-- Google Analytics 4 -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EQVXBV2MJQ"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-EQVXBV2MJQ');
-    </script>
-
-    <!-- LocalBusiness Schema JSON-LD -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "ProfessionalService",
-      "name": "Safe Haven Nursery Consultations",
-      "url": "https://www.safehavennursery.com.au",
-      "logo": "https://www.safehavennursery.com.au/logo.png",
-      "description": "Expert in-home nursery safety audits and functional room styling for expectant parents.",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Safety Street 123",
-        "addressLocality": "Pakenham",
-        "addressRegion": "VIC",
-        "postalCode": "3810",
-        "addressCountry": "AU"
-      },
-      "contactPoint": {
-        "@type": "ContactPoint",
-        "contactType": "customer service",
-        "email": "hello@safehavennursery.com.au"
-      },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": "-38.0812",
-        "longitude": "145.3340"
-      },
-      "areaServed": {
-        "@type": "State",
-        "name": "Victoria"
-      },
-      "sameAs": [
-        "https://www.linkedin.com/company/safe-haven-nursery-consultations",
-        "https://www.facebook.com/safehavennursery"
-      ]
-    }
-    </script>
-    
-    <!-- Google Fonts: Manrope & Sora for a warm, professional, design-led feel -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Sora:wght@400;600;700&display=swap" rel="stylesheet">
-
-    <style>
-        /* CSS Variables: Custom Pastel & Earthy Palette */
-        :root {
-            --coffee-bean: #7f5539ff;
-            --camel: #a68a64ff;
-            --almond-cream: #ede0d4ff;
-            --dusty-olive: #656d4aff;
-            --ebony: #414833ff;
-            --bg-light: #fbf9f6;
-            --white: #ffffff;
-            --transition: all 0.3s ease;
-        }
-
-        /* Reset & Base Styles */
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
-
-        body {
-            font-family: 'Manrope', sans-serif, -apple-system, sans-serif;
-            background-color: var(--bg-light);
-            color: var(--ebony);
-            line-height: 1.6;
-            -webkit-font-smoothing: antialiased;
-        }
-
-        h1, h2, h3 {
-            font-family: 'Sora', sans-serif;
-            color: var(--ebony);
-            font-weight: 700;
-        }
-
-        a {
-            text-decoration: none;
-            color: inherit;
-        }
-
-        /* Layout Container */
-        .container {
-            max-width: 1100px;
-            margin: 0 auto;
-            padding: 0 24px;
-        }
-
-        /* HERO SECTION WITH BACKGROUND IMAGE & BRAND OVERLAY */
-        .hero-section {
-            position: relative;
-            background: linear-gradient(
-                to bottom, 
-                rgba(65, 72, 51, 0.78), 
-                rgba(127, 85, 57, 0.68)
-            ), 
-            url('https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=1920&q=80') center/cover no-repeat;
-            padding: 100px 0 80px 0;
-            text-align: center;
-            color: var(--white);
-            border-bottom: 1px solid rgba(166, 138, 100, 0.3);
-        }
-
-        .hero-section .eyebrow {
-            display: inline-block;
-            font-size: 0.85rem;
-            text-transform: uppercase;
-            letter-spacing: 1.5px;
-            color: var(--almond-cream);
-            font-weight: 600;
-            margin-bottom: 16px;
-            background: rgba(237, 224, 212, 0.15);
-            padding: 6px 14px;
-            border-radius: 50px;
-            border: 1px solid rgba(237, 224, 212, 0.3);
-        }
-
-        .hero-section h1 {
-            font-size: clamp(2rem, 4vw, 3.2rem);
-            line-height: 1.2;
-            max-width: 850px;
-            margin: 0 auto 20px auto;
-            color: var(--white);
-        }
-
-        .hero-section p {
-            font-size: 1.15rem;
-            color: var(--almond-cream);
-            max-width: 650px;
-            margin: 0 auto 32px auto;
-        }
-
-        .cta-button {
-            display: inline-block;
-            background-color: var(--coffee-bean);
-            color: var(--white);
-            padding: 16px 32px;
-            font-size: 1rem;
-            font-weight: 600;
-            border-radius: 8px;
-            box-shadow: 0 4px 14px rgba(127, 85, 57, 0.3);
-            transition: var(--transition);
-        }
-
-        .cta-button:hover {
-            background-color: var(--ebony);
-            transform: translateY(-2px);
-        }
-
-        .hero-section .micro-copy {
-            display: block;
-            margin-top: 14px;
-            font-size: 0.85rem;
-            color: var(--almond-cream);
-            opacity: 0.85;
-            font-weight: 500;
-        }
-
-        /* SECTIONS GENERAL */
-        section {
-            padding: 70px 0;
-        }
-
-        .section-title {
-            text-align: center;
-            font-size: 2.2rem;
-            margin-bottom: 16px;
-        }
-
-        .section-subtitle {
-            text-align: center;
-            color: var(--coffee-bean);
-            max-width: 600px;
-            margin: 0 auto 48px auto;
-            font-size: 1.05rem;
-        }
-
-        /* CARDS GRID SYSTEM (Responsive 3-column layout) */
-        .cards-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
-            gap: 30px;
-        }
-
-        /* AGITATION SECTION */
-        .agitation-section {
-            background-color: var(--white);
-        }
-
-        .agitation-card {
-            background-color: var(--bg-light);
-            padding: 30px;
-            border-radius: 12px;
-            border-left: 4px solid var(--camel);
-            transition: var(--transition);
-        }
-
-        .agitation-card:hover {
-            transform: translateY(-3px);
-        }
-
-        .agitation-card h3 {
-            font-size: 1.15rem;
-            margin-bottom: 12px;
-            color: var(--coffee-bean);
-        }
-
-        .agitation-card p {
-            font-size: 0.95rem;
-            color: var(--ebony);
-        }
-
-        /* SOLUTION SECTION */
-        .solution-section {
-            background-color: var(--almond-cream);
-        }
-
-        .solution-card {
-            background-color: var(--white);
-            padding: 35px 30px;
-            border-radius: 16px;
-            box-shadow: 0 10px 30px rgba(65, 72, 51, 0.05);
-            transition: var(--transition);
-            border-top: 4px solid var(--dusty-olive);
-        }
-
-        .solution-card:hover {
-            transform: translateY(-5px);
-        }
-
-        .solution-card h3 {
-            font-size: 1.2rem;
-            margin-bottom: 12px;
-            color: var(--coffee-bean);
-        }
-
-        .solution-card p {
-            font-size: 0.95rem;
-            color: var(--ebony);
-        }
-
-        /* TRUST STACK */
-        .trust-stack {
-            background-color: var(--dusty-olive);
-            color: var(--white);
-            text-align: center;
-            padding: 60px 20px;
-            border-radius: 16px;
-            margin: 40px auto;
-            max-width: 900px;
-        }
-
-        .trust-stack h3 {
-            color: var(--almond-cream);
-            margin-bottom: 20px;
-            font-size: 1.5rem;
-        }
-
-        .trust-stack blockquote {
-            font-size: 1.15rem;
-            font-style: italic;
-            max-width: 700px;
-            margin: 0 auto;
-            line-height: 1.5;
-        }
-
-        .trust-stack cite {
-            display: block;
-            margin-top: 15px;
-            font-size: 0.9rem;
-            color: var(--almond-cream);
-            font-style: normal;
-            font-weight: 600;
-        }
-
-        /* CTA SECTION / FORM */
-        .cta-section {
-            background-color: var(--white);
-            text-align: center;
-        }
-
-        .cta-section form {
-            max-width: 500px;
-            margin: 30px auto 0 auto;
-            background-color: var(--bg-light);
-            padding: 40px;
-            border-radius: 16px;
-            box-shadow: 0 15px 35px rgba(65, 72, 51, 0.08);
-            text-align: left;
-        }
-
-        .form-group {
-            margin-bottom: 20px;
-        }
-
-        .form-group label {
-            display: block;
-            font-size: 0.9rem;
-            font-weight: 600;
-            margin-bottom: 8px;
-            color: var(--ebony);
-        }
-
-        .form-group input {
-            width: 100%;
-            padding: 14px;
-            border: 1px solid rgba(166, 138, 100, 0.4);
-            border-radius: 8px;
-            background-color: var(--white);
-            font-family: inherit;
-            font-size: 1rem;
-            color: var(--ebony);
-            outline: none;
-            transition: var(--transition);
-        }
-
-        .form-group input:focus {
-            border-color: var(--coffee-bean);
-            box-shadow: 0 0 0 3px rgba(127, 85, 57, 0.15);
-        }
-
-        .submit-btn {
-            width: 100%;
-            background-color: var(--coffee-bean);
-            color: var(--white);
-            border: none;
-            padding: 16px;
-            font-size: 1rem;
-            font-weight: 600;
-            border-radius: 8px;
-            cursor: pointer;
-            transition: var(--transition);
-        }
-
-        .submit-btn:hover {
-            background-color: var(--ebony);
-        }
-
-        /* FOOTER */
-        footer {
-            background-color: var(--ebony);
-            color: var(--almond-cream);
-            text-align: center;
-            padding: 30px 0;
-            font-size: 0.85rem;
-        }
-    </style>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-EQVXBV2MJQ"></script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Safe Haven Nursery Consultations",
+    "url": "https://www.safehavennursery.com.au",
+    "logo": "https://www.safehavennursery.com.au/logo.png",
+    "description": "Expert in-home nursery safety audits and functional room styling for expectant parents.",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "YOUR_STREET_ADDRESS",
+      "addressLocality": "Clyde North",
+      "addressRegion": "VIC",
+      "postalCode": "3978",
+      "addressCountry": "AU"
+    },
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "customer service",
+      "email": "hello@safehavennursery.com.au"
+    },
+    "areaServed": { "@type": "AdministrativeArea", "name": "South East Melbourne" }
+  }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Sora:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/CSS/styles.css">
+  <script src="/JS/script.js" defer></script>
 </head>
 <body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html" aria-label="Safe Haven home">Safe Haven</a>
+      <nav aria-label="Main navigation">
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="#how-it-helps">How it helps</a>
+        <a class="nav-book" href="booking.html">Book now</a>
+      </nav>
+    </div>
+  </header>
 
-    <!-- HERO SECTION -->
-    <header class="hero-section">
-        <div class="container">
-            <span class="eyebrow">Professional Nursery Design & Safety Audits</span>
-            <h1>Bring Your Baby Home to a Safe, Calm, and Perfectly Organised Sleep Space.</h1>
-            <p>Skip the overwhelming online guides and conflicting advice. We provide in-home nursery safety audits, ergonomic layout styling, and cot setup consultations so you can rest easy from day one.</p>
-            <a href="#book" class="cta-button">Book Your Nursery Safety Audit ($345 AUD)</a>
-            <span class="micro-copy">Servicing families across the Greater Melbourne region. Fully insured & safety-aligned.</span>
-        </div>
-    </header>
-
-    <!-- THE AGITATION SECTION -->
-    <section class="agitation-section">
-        <div class="container">
-            <h2 class="section-title">Are You Stressed About Getting the Nursery "Just Right"?</h2>
-            <p class="section-subtitle">Preparing for a newborn is exhausting. Between decoding strict safe sleep guidelines and setting up a functional room, it’s easy to feel overwhelmed.</p>
-            
-            <div class="cards-grid">
-                <div class="agitation-card">
-                    <h3>1. The Guesswork Trap</h3>
-                    <p>Wondering if your cot placement, bassinet setup, or window treatments meet strict Australian infant safety guidelines?</p>
-                </div>
-                <div class="agitation-card">
-                    <h3>2. The Fatigue Factor</h3>
-                    <p>Setting up a room that looks pretty online but fails the practical test of a stressful 2 AM nappy change or feed.</p>
-                </div>
-                <div class="agitation-card">
-                    <h3>3. Information Overload</h3>
-                    <p>Sifting through endless digital fact sheets, forums, and contradictory blogs instead of getting definitive, tailored help.</p>
-                </div>
-                <div class="agitation-card">
-                    <h3>4. Safety Anxiety</h3>
-                    <p>Constant low-level worry about hidden hazards like loose cords, unstable furniture anchors, or incorrect mattress firmness.</p>
-                </div>
-                <div class="agitation-card">
-                    <h3>5. Spatial Clutter Chaos</h3>
-                    <p>Wasting precious energy hunting for swaddles, wipes, and creams because storage areas lack logical organisation.</p>
-                </div>
-                <div class="agitation-card">
-                    <h3>6. Aesthetic Frustration</h3>
-                    <p>Feeling uninspired or stressed by a room that feels chaotic instead of serving as a peaceful sanctuary for sleep.</p>
-                </div>
-            </div>
-        </div>
+  <main>
+    <section class="hero-section" style="background: linear-gradient(to bottom, rgba(65, 72, 51, .78), rgba(127, 85, 57, .68)), url('assets/SafeHavenNurseryConsultant-Hero1.webp') center/cover no-repeat;">
+      <div class="container">
+        <span class="eyebrow">Professional Nursery Design &amp; Safety Consultation</span>
+        <h1>Bring Your Baby Home to a Safe, Calm, and Perfectly Organised Sleep Space.</h1>
+        <p>Skip the overwhelming online guides and conflicting advice. We provide in-home nursery safety audits, ergonomic layout styling, and cot setup consultations so you can rest easy from day one.</p>
+        <a href="booking.html" class="cta-button">Book Your Nursery Safety Consultation ($345 AUD)</a>
+        <span class="micro-copy">Servicing local families across The Greater Melbourne region. Casey Early Parenting Centre safety-aligned.</span>
+      </div>
     </section>
 
-    <!-- THE SOLUTION SECTION -->
+    <section class="agitation-section" id="how-it-helps">
+      <div class="container">
+        <h2 class="section-title">Are You Stressed About Getting the Nursery “Just Right”?</h2>
+        <p class="section-subtitle">Preparing for a newborn is exhausting. Between decoding safe sleep guidelines and setting up a functional room, it’s easy to feel overwhelmed.</p>
+        <div class="cards-grid">
+          <article class="agitation-card"><h3>1. The Guesswork Trap</h3><p>Wondering if your cot placement, bassinet setup, or window treatments meet Australian infant safety guidelines?</p></article>
+          <article class="agitation-card"><h3>2. The Fatigue Factor</h3><p>Setting up a room that looks pretty online but fails the practical test of a stressful 2 AM nappy change or feed.</p></article>
+          <article class="agitation-card"><h3>3. Information Overload</h3><p>Sifting through endless digital fact sheets, forums, and contradictory blogs instead of getting definitive, tailored help.</p></article>
+          <article class="agitation-card"><h3>4. Safety Anxiety</h3><p>Constant worry about hidden hazards like loose cords, unstable furniture anchors, or incorrect mattress firmness.</p></article>
+          <article class="agitation-card"><h3>5. Spatial Clutter Chaos</h3><p>Wasting precious energy hunting for swaddles, wipes, and creams because storage areas lack logical organisation.</p></article>
+          <article class="agitation-card"><h3>6. Aesthetic Frustration</h3><p>Feeling uninspired or stressed by a room that feels chaotic instead of serving as a peaceful sanctuary for sleep.</p></article>
+        </div>
+      </div>
+    </section>
+
     <section class="solution-section">
-        <div class="container">
-            <h2 class="section-title">The Done-For-You In-Home Solution</h2>
-            <p class="section-subtitle">We combine professional design expertise with rigorous infant safety standards to transform your nursery into a peaceful sanctuary.</p>
-            
-            <div class="cards-grid">
-                <div class="solution-card">
-                    <h3>1. Complete Safety Audit</h3>
-                    <p>Comprehensive check of cot placement, window cord security, room temperature control, and mattress firmness against established standards.</p>
-                </div>
-                <div class="solution-card">
-                    <h3>2. Ergonomic Flow Design</h3>
-                    <p>Strategic room layout planning positioning your feeding chair, change table, and lighting for seamless nighttime operation.</p>
-                </div>
-                <div class="solution-card">
-                    <h3>3. Tactile Aesthetic Styling</h3>
-                    <p>Beautiful curation utilizing soothing tones and natural textures to create a relaxing, harmonious atmosphere for baby and parents.</p>
-                </div>
-                <div class="solution-card">
-                    <h3>4. Smart Storage Architecture</h3>
-                    <p>Custom organisation of drawers, wardrobes, and change stations so every essential item is within arm's reach during late-night hours.</p>
-                </div>
-                <div class="solution-card">
-                    <h3>5. Peace-of-Mind Checklist</h3>
-                    <p>Leave behind a physical, verified safety summary sheet customized specifically for your room layout and furniture pieces.</p>
-                </div>
-                <div class="solution-card">
-                    <h3>6. Hands-On Assembly Support</h3>
-                    <p>Direct assistance putting together critical sleep gear and arranging furniture securely so you don't lift a finger while pregnant.</p>
-                </div>
-            </div>
+      <div class="container">
+        <h2 class="section-title">The Done-For-You In-Home Solution</h2>
+        <p class="section-subtitle">We combine design expertise with rigorous professional infant safety standards to transform your nursery into a peaceful sanctuary.</p>
+        <div class="cards-grid">
+          <article class="solution-card"><h3>1. Complete Safety Audit</h3><p>Comprehensive check of cot placement, window cord security, room temperature control, and mattress firmness against established standards.</p></article>
+          <article class="solution-card"><h3>2. Ergonomic Flow Design</h3><p>Strategic room layout planning positioning your feeding chair, change table, and lighting for seamless nighttime operation.</p></article>
+          <article class="solution-card"><h3>3. Tactile Aesthetic Styling</h3><p>Beautiful curation utilising soothing tones and natural textures to create a relaxing, harmonious atmosphere for baby and parents.</p></article>
+          <article class="solution-card"><h3>4. Smart Storage Architecture</h3><p>Custom organisation of drawers, wardrobes, and change stations so every essential item is within arm’s reach during late-night hours.</p></article>
+          <article class="solution-card"><h3>5. Peace-of-Mind Checklist</h3><p>Leave behind a physical, verified safety summary sheet customised specifically for your room layout and furniture pieces.</p></article>
+          <article class="solution-card"><h3>6. Hands-On Flat Pack Assembly Support</h3><p>Direct assistance putting together critical sleep gear and arranging furniture securely so you don’t lift a finger while pregnant.</p></article>
         </div>
+      </div>
     </section>
 
-    <!-- TRUST STACK -->
     <div class="container">
-        <section class="trust-stack">
-            <h3>Trusted by Expectant Parents & Local Families</h3>
-            <blockquote>"Having someone come into our home to physically check the nursery layout and set up the safe sleep space took away 100% of our anxiety before our first baby arrived. Worth every single cent."</blockquote>
-            <cite>— Sarah M., New Parent, Pakenham</cite>
-        </section>
+      <section class="trust-stack">
+        <h2>Trusted by Expectant Parents &amp; Local Families</h2>
+        <div class="trust-marquee" aria-label="Customer testimonials">
+          <div class="trust-track">
+            <article class="trust-quote">
+              <blockquote>“Having someone come into our home to physically check the nursery layout and set up the safe sleep space took away 100% of our anxiety before our first baby arrived. Worth every single cent.”</blockquote>
+              <cite>— Sarah M., New Parent, Camberwell</cite>
+            </article>
+            <article class="trust-quote">
+              <blockquote>“The in-home safety audit was incredibly calming and practical. A clear plan, a safe setup, and zero stress.”</blockquote>
+              <cite>— Emma L., Elsternwick</cite>
+            </article>
+            <article class="trust-quote">
+              <blockquote>“The final setup looked beautiful and actually worked well for overnight feeds. It made our nursery feel so much more functional.”</blockquote>
+              <cite>— Chloe R., Hampton</cite>
+            </article>
+            <article class="trust-quote">
+              <blockquote>“I finally felt confident that our room was set up safely and beautifully. It was the best decision we made before baby arrived.”</blockquote>
+              <cite>— Jessica T., Bonbeach</cite>
+            </article>
+            <article class="trust-quote">
+              <blockquote>“Having someone come into our home to physically check the nursery layout and set up the safe sleep space took away our anxiety before our first baby arrived.”</blockquote>
+              <cite>— Sarah & Mark, New Parents, Pakenham</cite>
+            </article>
+            <article class="trust-quote">
+              <blockquote>“The in-home safety audit was incredibly calming and practical. We have a clear plan, a safe setup, and zero stress.”</blockquote>
+              <cite>— Heather F., Chadstone</cite>
+            </article>
+            <article class="trust-quote">
+              <blockquote>“The final setup looked beautiful and actually worked for overnight feeds. It made our nursery feel so much more functional.”</blockquote>
+              <cite>— Casey O., Clyde</cite>
+            </article>
+            <article class="trust-quote">
+              <blockquote>“I finally felt confident that our room was set up safely and beautifully. It was the best decision we made before baby arrived.”</blockquote>
+              <cite>— Jessica T., Berwick</cite>
+            </article>
+          </div>
+        </div>
+      </section>
     </div>
 
-    <!-- LEAD CAPTURE FORM / CTA -->
-    <section id="book" class="cta-section">
-        <div class="container">
-            <h2 class="section-title">Secure Your Peace of Mind Before Baby Arrives</h2>
-            <p class="section-subtitle">Enter your details below to request your in-home nursery consultation. No complicated tech or checkout forms—we’ll contact you within 24 hours to confirm your date.</p>
-            
-            <form action="https://formspree.io/f/your-endpoint" method="POST">
-                <div class="form-group">
-                    <label for="name">Your Name</label>
-                    <input type="text" id="name" name="name" required placeholder="e.g. Jessica Taylor">
-                </div>
-                <div class="form-group">
-                    <label for="due-date">Estimated Due Date / Suburb</label>
-                    <input type="text" id="due-date" name="due_date" required placeholder="e.g. Due Nov / Local Suburb">
-                </div>
-                <div class="form-group">
-                    <label for="email">Email Address</label>
-                    <input type="email" id="email" name="email" required placeholder="name@example.com">
-                </div>
-                <button type="submit" class="submit-btn">Request My Nursery Consultation</button>
-            </form>
-        </div>
+    <section class="cta-section">
+      <div class="container">
+        <h2 class="section-title">Secure Your Peace of Mind Before Baby Arrives</h2>
+        <p class="section-subtitle">Request your in-home nursery consultation and we’ll contact you within 24 hours to confirm your date.</p>
+        <a href="booking.html" class="cta-button">Request a consultation</a>
+      </div>
     </section>
+  </main>
 
-    <footer>
-        <div class="container">
-            <p>&copy; 2026 Safe Haven Nursery Consultations. All rights reserved.</p>
-        </div>
-    </footer>
-
+  <footer><div class="container"><p>&copy; 2026 Safe Haven Nursery Consultations. All rights reserved.</p></div></footer>
 </body>
 </html>

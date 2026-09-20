@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book a Nursery Safety Audit | Safe Haven</title>
+  <meta name="description" content="Request an in-home Safe Haven nursery safety audit in South East Melbourne.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Sora:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/CSS/styles.css">
+  <script src="/JS/script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html" aria-label="Safe Haven home">Safe Haven</a>
+      <nav aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="index.html#how-it-helps">How it helps</a>
+        <a class="nav-book" href="booking.html" aria-current="page">Book now</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="booking-page">
+    <section class="booking-intro" style="background: linear-gradient(to bottom, rgba(65, 72, 51, .74), rgba(127, 85, 57, .66)), url('assets/SafeHavenNurseryConsultant-Hero2.webp') center/cover no-repeat; color: #fff;">
+      <div class="container narrow">
+        <span class="eyebrow eyebrow-dark">Safe Haven Nursery Consultations</span>
+        <h1>Request your nursery safety consultation.</h1>
+        <p>Tell us a little about your nursery and we’ll be in touch within 24 hours to confirm availability.</p>
+      </div>
+    </section>
+
+    <section class="booking-form-section">
+      <div class="container narrow">
+        <form id="booking-form" class="booking-form" action="mailto:juliafpayne@yahoo.com.au" method="post" enctype="text/plain" novalidate>
+          <div class="form-group">
+            <label for="name">Your name</label>
+            <input type="text" id="name" name="name" autocomplete="name" required placeholder="e.g. Jessica Taylor">
+          </div>
+          <div class="form-group">
+            <label for="email">Email address</label>
+            <input type="email" id="email" name="email" autocomplete="email" required placeholder="name@example.com">
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone number</label>
+            <input type="tel" id="phone" name="phone" autocomplete="tel" required placeholder="e.g. 04XX XXX XXX">
+          </div>
+          <div class="form-group">
+            <label for="due-date">Estimated due date / baby’s age <span class="optional">(optional)</span></label>
+            <input type="text" id="due-date" name="due_date" placeholder="e.g. Due November / 2 months old">
+          </div>
+          <div class="form-group">
+            <label for="suburb">Suburb</label>
+            <input type="text" id="suburb" name="suburb" required placeholder="e.g. Clyde North">
+          </div>
+          <div class="form-group">
+            <label for="message">Anything you’d like us to know? <span class="optional">(optional)</span></label>
+            <textarea id="message" name="message" rows="4" placeholder="Tell us about your nursery or any concerns you have."></textarea>
+          </div>
+          <button type="submit" class="submit-btn">Request My Nursery Consultation</button>
+          <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
+        </form>
+        <p class="form-note">This request does not confirm a booking. We’ll contact you within 24 hours to arrange a suitable time.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer><div class="container"><p>&copy; 2026 Safe Haven Nursery Consultations. All rights reserved.</p></div></footer>
+</body>
+</html>
