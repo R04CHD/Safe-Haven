@@ -506,6 +506,14 @@ nav a[aria-current="page"]:not(.nav-cta) {
   margin: auto;
   color: var(--charcoal);
 }
+.thank-you-hero p:not(.eyebrow) {
+  max-width: 540px;
+  margin: auto;
+  color: var(--charcoal);
+}
+.thank-you-hero .button {
+  margin-top: 28px;
+}
 .about-story {
   background: var(--paper);
 }

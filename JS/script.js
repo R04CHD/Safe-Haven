@@ -47,6 +47,10 @@ document.addEventListener('DOMContentLoaded', () => {
   const form = document.querySelector('#booking-form');
   if (form) {
     const status = document.querySelector('#form-status');
+    const redirect = form.querySelector('[name="_next"]');
+    if (redirect) {
+      redirect.value = new URL(redirect.value, window.location.href).href;
+    }
     form.addEventListener('submit', (event) => {
       if (form.action.includes('YOUR_FORM_ID')) {
         event.preventDefault();
