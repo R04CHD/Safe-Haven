@@ -1,160 +1,307 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Safe Haven Nursery Setup | In-Home Newborn Sleep Space Consultations</title>
-  <meta name="description" content="Expert in-home nursery safety audits and functional room styling for expectant parents in South East Melbourne. Sleep safe, live easy.">
-  <meta property="og:type" content="website">
-  <meta property="og:site_name" content="Safe Haven Nursery Consultations">
-  <meta property="og:title" content="Safe Haven Nursery Setup | In-Home Newborn Sleep Space Consultations">
-  <meta property="og:description" content="Expert in-home nursery safety audits and functional room styling for expectant parents in South East Melbourne. Sleep safe, live easy.">
-  <meta property="og:url" content="https://www.safehavennursery.com.au/">
-  <meta property="og:image" content="https://www.safehavennursery.com.au/assets/SafeHavenNurseryConsultant-OG-Image.jpg">
-  <meta property="og:image:alt" content="Safe Haven Nursery Consultations">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Safe Haven Nursery Setup | In-Home Newborn Sleep Space Consultations">
-  <meta name="twitter:description" content="Expert in-home nursery safety audits and functional room styling for expectant parents in South East Melbourne. Sleep safe, live easy.">
-  <meta name="twitter:image" content="https://www.safehavennursery.com.au/assets/SafeHavenNurseryConsultant-OG-Image.jpg">
-
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-EQVXBV2MJQ"></script>
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "ProfessionalService",
-    "name": "Safe Haven Nursery Consultations",
-    "url": "https://www.safehavennursery.com.au",
-    "logo": "https://www.safehavennursery.com.au/logo.png",
-    "description": "Expert in-home nursery safety audits and functional room styling for expectant parents.",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "YOUR_STREET_ADDRESS",
-      "addressLocality": "Pakenham",
-      "addressRegion": "VIC",
-      "postalCode": "3810",
-      "addressCountry": "AU"
-    },
-    "contactPoint": {
-      "@type": "ContactPoint",
-      "contactType": "customer service",
-      "email": "hello@safehavennursery.com.au"
-    },
-    "areaServed": { "@type": "AdministrativeArea", "name": "South East Melbourne" }
-  }
-  </script>
-  <link rel="icon" type="image/png" href="assets/SafeHavenNurseryConsultant-favicon.png">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Sora:wght@400;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="CSS/styles.css">
-  <script src="JS/script.js" defer></script>
-</head>
-<body>
-  <header class="site-header">
-    <div class="container nav-wrap">
-      <a class="brand" href="index.html" aria-label="Safe Haven home">
-        <img src="assets/SafeHavenNurseryConsultant-Logo.png" alt="Safe Haven logo" width="87" height="52">
-      </a>
-      <nav aria-label="Main navigation">
-        <a href="index.html" aria-current="page">Home</a>
-        <a href="#how-it-helps">How it helps</a>
-        <a class="nav-book" href="booking.html">Book now</a>
-      </nav>
-    </div>
-  </header>
-
-  <main>
-    <section class="hero-section" style="background: linear-gradient(to bottom, rgba(65, 72, 51, .78), rgba(127, 85, 57, .68)), url('assets/SafeHavenNurseryConsultant-Hero1.webp') center/cover no-repeat;">
-      <div class="container">
-        <span class="eyebrow">Professional Nursery Design &amp; Safety Consultation</span>
-        <h1>Bring Your Baby Home to a Safe, Calm, and Perfectly Organised Sleep Space.</h1>
-        <p>Skip the overwhelming online guides and conflicting advice. We provide in-home nursery safety audits, ergonomic layout styling, and cot setup consultations so you can rest easy from day one.</p>
-        <a href="booking.html" class="cta-button">Book Your Nursery Safety Consultation ($345 AUD)</a>
-        <span class="micro-copy">Servicing local families across The Greater Melbourne region. Casey Early Parenting Centre safety-aligned.</span>
+<!doctype html>
+<html lang="en-AU">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f3e7d5" />
+    <meta
+      name="description"
+      content="Thoughtful nursery safety observations, room planning and practical guidance for families preparing to welcome a baby in South East Melbourne."
+    />
+    <title>Safe Haven | A safe beginning, a little more peace</title>
+    <link rel="icon" type="image/png" href="assets/safe-haven-mark.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="CSS/styles.css" />
+    <script src="JS/script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="index.html" aria-label="Safe Haven home"
+          ><span class="brand-mark">sh</span
+          ><span>safe haven<small>nursery consultations</small></span></a
+        >
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="main-nav"
+        >
+          <span></span><span></span><span class="sr-only">Toggle menu</span>
+        </button>
+        <nav id="main-nav" aria-label="Main navigation">
+          <a href="index.html" aria-current="page">Home</a
+          ><a href="#approach">Our approach</a
+          ><a href="about.html">About Julia</a
+          ><a class="nav-cta" href="booking.html">Enquire</a>
+        </nav>
       </div>
-    </section>
-
-    <section class="agitation-section" id="how-it-helps">
-      <div class="container">
-        <h2 class="section-title">Are You Stressed About Getting the Nursery “Just Right”?</h2>
-        <p class="section-subtitle">Preparing for a newborn is exhausting. Between decoding safe sleep guidelines and setting up a functional room, it’s easy to feel overwhelmed.</p>
-        <div class="cards-grid">
-          <article class="agitation-card"><h3>1. The Guesswork Trap</h3><p>Wondering if your cot placement, bassinet setup, or window treatments meet Australian infant safety guidelines?</p></article>
-          <article class="agitation-card"><h3>2. The Fatigue Factor</h3><p>Setting up a room that looks pretty online but fails the practical test of a stressful 2 AM nappy change or feed.</p></article>
-          <article class="agitation-card"><h3>3. Information Overload</h3><p>Sifting through endless digital fact sheets, forums, and contradictory blogs instead of getting definitive, tailored help.</p></article>
-          <article class="agitation-card"><h3>4. Safety Anxiety</h3><p>Constant worry about hidden hazards like loose cords, unstable furniture anchors, or incorrect mattress firmness.</p></article>
-          <article class="agitation-card"><h3>5. Spatial Clutter Chaos</h3><p>Wasting precious energy hunting for swaddles, wipes, and creams because storage areas lack logical organisation.</p></article>
-          <article class="agitation-card"><h3>6. Aesthetic Frustration</h3><p>Feeling uninspired or stressed by a room that feels chaotic instead of serving as a peaceful sanctuary for sleep.</p></article>
+    </header>
+    <main id="main">
+      <section class="hero">
+        <div
+          class="hero-image"
+          role="img"
+          aria-label="A calm, warmly styled nursery with a cot and soft natural textures"
+        ></div>
+        <div class="hero-content container">
+          <p class="eyebrow">Safety · Function · Design</p>
+          <h1>A safe beginning.<br /><em>A little more peace.</em></h1>
+          <p class="hero-copy">
+            Thoughtful nursery guidance for the days before baby arrives — and
+            the everyday moments that follow.
+          </p>
+          <a class="button button-rose" href="booking.html"
+            >Explore a consultation <span aria-hidden="true">↗</span></a
+          >
+          <p class="hero-note">
+            Personalised, in-home consultations across South East Melbourne
+          </p>
         </div>
-      </div>
-    </section>
+        <span class="hero-number" aria-hidden="true">01</span>
+      </section>
 
-    <section class="solution-section">
-      <div class="container">
-        <h2 class="section-title">The Done-For-You In-Home Solution</h2>
-        <p class="section-subtitle">We combine design expertise with rigorous professional infant safety standards to transform your nursery into a peaceful sanctuary.</p>
-        <div class="cards-grid">
-          <article class="solution-card"><h3>1. Complete Safety Audit</h3><p>Comprehensive check of cot placement, window cord security, room temperature control, and mattress firmness against established standards.</p></article>
-          <article class="solution-card"><h3>2. Ergonomic Flow Design</h3><p>Strategic room layout planning positioning your feeding chair, change table, and lighting for seamless nighttime operation.</p></article>
-          <article class="solution-card"><h3>3. Tactile Aesthetic Styling</h3><p>Beautiful curation utilising soothing tones and natural textures to create a relaxing, harmonious atmosphere for baby and parents.</p></article>
-          <article class="solution-card"><h3>4. Smart Storage Architecture</h3><p>Custom organisation of drawers, wardrobes, and change stations so every essential item is within arm’s reach during late-night hours.</p></article>
-          <article class="solution-card"><h3>5. Peace-of-Mind Checklist</h3><p>Leave behind a physical, verified safety summary sheet customised specifically for your room layout and furniture pieces.</p></article>
-          <article class="solution-card"><h3>6. Hands-On Flat Pack Assembly Support</h3><p>Direct assistance putting together critical sleep gear and arranging furniture securely so you don’t lift a finger while pregnant.</p></article>
+      <section class="intro section-pad">
+        <div class="container intro-grid">
+          <p class="eyebrow">A room that works for real life</p>
+          <div>
+            <h2>
+              Every detail has a purpose.<br /><em>Every corner has a plan.</em>
+            </h2>
+            <p>
+              Preparing a space for your baby is about more than how it looks.
+              Together, we consider safety, flow and the small practical details
+              that can make feeding, changing and settling feel easier.
+            </p>
+            <a class="text-link" href="about.html"
+              >Get to know Julia <span aria-hidden="true">→</span></a
+            >
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <div class="container">
-      <section class="trust-stack">
-        <h2>Trusted by Expectant Parents &amp; Local Families</h2>
-        <div class="trust-marquee" aria-label="Customer testimonials">
-          <div class="trust-track">
-            <article class="trust-quote">
-              <blockquote>“Having someone come into our home to physically check the nursery layout and set up the safe sleep space took away 100% of our anxiety before our first baby arrived. Worth every single cent.”</blockquote>
-              <cite>— Sarah M., New Parent, Camberwell</cite>
+      <section class="worries section-pad" id="approach">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">You don’t have to figure it all out alone</p>
+            <h2>Preparing a nursery can feel like a lot.</h2>
+            <p>
+              Conflicting advice, a growing list of baby essentials and a room
+              that needs to work at 2 am. A calm, experienced perspective can
+              help you find a way forward.
+            </p>
+          </div>
+          <div class="worry-grid">
+            <article>
+              <span>01</span>
+              <h3>Too much advice</h3>
+              <p>
+                Make sense of the information and questions that feel relevant
+                to your home and family.
+              </p>
             </article>
-            <article class="trust-quote">
-              <blockquote>“The in-home safety audit was incredibly calming and practical. A clear plan, a safe setup, and zero stress.”</blockquote>
-              <cite>— Emma L., Elsternwick</cite>
+            <article>
+              <span>02</span>
+              <h3>A room that flows</h3>
+              <p>
+                Think through furniture placement and daily routines, from
+                feeding to changing and settling.
+              </p>
             </article>
-            <article class="trust-quote">
-              <blockquote>“The final setup looked beautiful and actually worked well for overnight feeds. It made our nursery feel so much more functional.”</blockquote>
-              <cite>— Chloe R., Hampton</cite>
+            <article>
+              <span>03</span>
+              <h3>Safety details</h3>
+              <p>
+                Have another experienced set of eyes notice considerations that
+                may be easy to miss.
+              </p>
             </article>
-            <article class="trust-quote">
-              <blockquote>“I finally felt confident that our room was set up safely and beautifully. It was the best decision we made before baby arrived.”</blockquote>
-              <cite>— Jessica T., Bonbeach</cite>
+            <article>
+              <span>04</span>
+              <h3>Making space work</h3>
+              <p>
+                Explore practical storage and layout ideas, whether your room is
+                large, small or shared.
+              </p>
             </article>
-            <article class="trust-quote">
-              <blockquote>“Having someone come into our home to physically check the nursery layout and set up the safe sleep space took away our anxiety before our first baby arrived.”</blockquote>
-              <cite>— Sarah & Mark, New Parents, Pakenham</cite>
+            <article>
+              <span>05</span>
+              <h3>Choosing what matters</h3>
+              <p>
+                Sort through what you have and identify the questions to ask
+                before making changes.
+              </p>
             </article>
-            <article class="trust-quote">
-              <blockquote>“The in-home safety audit was incredibly calming and practical. We have a clear plan, a safe setup, and zero stress.”</blockquote>
-              <cite>— Heather F., Chadstone</cite>
-            </article>
-            <article class="trust-quote">
-              <blockquote>“The final setup looked beautiful and actually worked for overnight feeds. It made our nursery feel so much more functional.”</blockquote>
-              <cite>— Casey O., Clyde</cite>
-            </article>
-            <article class="trust-quote">
-              <blockquote>“I finally felt confident that our room was set up safely and beautifully. It was the best decision we made before baby arrived.”</blockquote>
-              <cite>— Jessica T., Berwick</cite>
+            <article>
+              <span>06</span>
+              <h3>A calmer feeling</h3>
+              <p>
+                Create a space that feels welcoming, considered and suited to
+                the way your family lives.
+              </p>
             </article>
           </div>
         </div>
       </section>
-    </div>
 
-    <section class="cta-section">
-      <div class="container">
-        <h2 class="section-title">Secure Your Peace of Mind Before Baby Arrives</h2>
-        <p class="section-subtitle">Request your in-home nursery consultation and we’ll contact you within 24 hours to confirm your date.</p>
-        <a href="booking.html" class="cta-button">Request a consultation</a>
+      <section class="service section-pad">
+        <div class="container service-top">
+          <div>
+            <p class="eyebrow">Personalised guidance for your home</p>
+            <h2>Nursery Safety<br /><em>Assessment</em></h2>
+          </div>
+          <p>
+            A supportive, practical consultation built around your space, your
+            questions and the things that matter most to your family.
+          </p>
+        </div>
+        <div class="container service-list">
+          <article>
+            <span class="service-index">01</span>
+            <div>
+              <h3>Safety observations</h3>
+              <p>
+                We look at the nursery environment and discuss relevant safety
+                considerations for your setup.
+              </p>
+            </div>
+            <span class="service-symbol">✳</span>
+          </article>
+          <article>
+            <span class="service-index">02</span>
+            <div>
+              <h3>Functional room planning</h3>
+              <p>
+                Talk through furniture placement, room flow and how the space
+                can support feeding, changing and settling.
+              </p>
+            </div>
+            <span class="service-symbol">✳</span>
+          </article>
+          <article>
+            <span class="service-index">03</span>
+            <div>
+              <h3>Thoughtful styling ideas</h3>
+              <p>
+                Explore colours, textures and practical storage ideas that feel
+                right for your home.
+              </p>
+            </div>
+            <span class="service-symbol">✳</span>
+          </article>
+          <article>
+            <span class="service-index">04</span>
+            <div>
+              <h3>Personalised recommendations</h3>
+              <p>
+                Leave with clear observations and ideas to consider as you
+                prepare your baby’s space.
+              </p>
+            </div>
+            <span class="service-symbol">✳</span>
+          </article>
+        </div>
+        <p class="container service-note">
+          Safe Haven provides assessment, advice and recommendations. The
+          consultation does not include furniture assembly, installation,
+          physical relocation, wall anchoring or modification.
+        </p>
+      </section>
+
+      <section class="quote-band section-pad">
+        <div class="container quote-wrap">
+          <p class="eyebrow">Kind words from families</p>
+          <blockquote>
+            “I learnt so much from Julia, she was very encouraging,
+            knowledgeable, and supportive. I feel a lot more confident.”
+          </blockquote>
+          <p class="quote-byline">Suzanne <span>· Family feedback</span></p>
+          <div class="quote-controls">
+            <button
+              type="button"
+              class="quote-prev"
+              aria-label="Previous feedback"
+            >
+              ←</button
+            ><span class="quote-count" aria-live="polite">02 / 09</span
+            ><button
+              type="button"
+              class="quote-next"
+              aria-label="Next feedback"
+            >
+              →
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="more-feedback section-pad">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">A little reassurance</p>
+            <h2>Support that stays with you.</h2>
+          </div>
+          <div class="feedback-grid">
+            <figure>
+              <blockquote>
+                “Julia was supportive, lovely and respectful, I am glad I could
+                learn a lot with her!”
+              </blockquote>
+              <figcaption>Alene</figcaption>
+            </figure>
+            <figure>
+              <blockquote>
+                “Shout out to Julia for her gentle approach and helpful
+                suggestions, she made us feel totally at ease.”
+              </blockquote>
+              <figcaption>Bianca</figcaption>
+            </figure>
+            <figure>
+              <blockquote>
+                “A huge thank you for your help in teaching us the fine art of
+                safe sleep spaces. Your guidance has been invaluable.”
+              </blockquote>
+              <figcaption>Alice</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="closing-cta">
+        <div class="container">
+          <p class="eyebrow">When you’re ready</p>
+          <h2>Let’s make room for<br /><em>a little more peace.</em></h2>
+          <p>
+            Tell us a little about your home and what you’re looking for. We’ll
+            be in touch to talk through the next steps.
+          </p>
+          <a class="button button-light" href="booking.html"
+            >Enquire about a consultation <span aria-hidden="true">↗</span></a
+          >
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-row">
+        <a class="footer-brand" href="index.html"
+          >safe haven <span>nursery consultations</span></a
+        >
+        <div class="footer-links">
+          <a href="about.html">About Julia</a
+          ><a href="booking.html">Enquiries</a
+          ><a href="service-terms.html">Consultation scope</a>
+        </div>
+        <p>
+          © <span data-year>2026</span> Safe Haven Nursery Consultations · South
+          East Melbourne and surrounding areas
+        </p>
       </div>
-    </section>
-  </main>
-
-  <footer><div class="container"><p>&copy; 2026 Safe Haven Nursery Consultations. All rights reserved.</p></div></footer>
-</body>
+    </footer>
+  </body>
 </html>
